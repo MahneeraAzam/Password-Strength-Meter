@@ -1,5 +1,5 @@
 [project]
-name = "unit-converter"
+name = "pswrd_strenght_meter"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -15,7 +15,7 @@ dependencies = [
 ]
 
 [project.scripts]
-unit-converter = "unit_converter:main"
+pswrd-strenght-meter = "pswrd_strenght_meter:main"
 
 [build-system]
 requires = ["hatchling"]

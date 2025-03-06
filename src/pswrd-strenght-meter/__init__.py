@@ -1,2 +1,2 @@
 def main() -> None:
-    print("Hello from unit-converter!")
+    print("Hello from pswrd-strenght-meter!")
