@@ -1,5 +1,5 @@
 [project]
-name = "pswrd_strength_meter"
+name = "pswrd_strength_meter"  # Corrected package name
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
@@ -15,8 +15,9 @@ dependencies = [
 ]
 
 [project.scripts]
-pswrd-strength-meter = "pswrd_strength_meter:main"
+pswrd-strength-meter = "pswrd_strength_meter.main:main"  # Correct path
 
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
+
